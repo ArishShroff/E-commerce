@@ -38,6 +38,6 @@ $(document).ready(function(){
 			$(".items").html(itemcount);
 	}
 	function formatmoney(n){
-		return "Rs."+n;
+		return "₹."+n;
 	}
 })
